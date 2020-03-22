@@ -8,6 +8,10 @@ OrcristJS Family : React Web Components.
 
 **TypeScript**
 
+## 组件列表
+
+（待补充）
+
 ## 开发流程
 
 ```bash
@@ -17,14 +21,23 @@ $ npm start
 
 ### 进入开发
 
+1. 创建独立开发分支：git checkout -b feat/xxComponent 分支
 1. 在 **components** 目录下创建你的组件文件夹
-2. 并在 **demo** 目录中创建你的演示路由
-3. 开发验证通过后，可以提交组件并发布
+1. 在 **components/index.ts** 文件中为组件进行 export
+1. 在 **demo** 目录中添加你的演示路由
+1. 开发并自测
+1. commit & push
 
-### 提交代码
+### 发布代码
+
+1. 提 pr 至 master 分支
+1. 发布 npm
+1. push master
 
 ```bash
 $ npm publish
+$ git commit -m "feat: add XXX"
+$ git push
 ```
 
 ### **Project** 中使用组件
