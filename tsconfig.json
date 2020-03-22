@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"importHelpers": true,
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"jsx": "react",
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"strict": true,
+		"esModuleInterop": true,
+		"paths": {
+			"@/*": ["components/*"]
+		}
+	},
+	"exclude": ["node_modules"]
+}
